@@ -1,0 +1,51 @@
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        width='298'
+        height='45'
+        viewBox='0 0 298 45'
+      >
+        <g id='Group_53' data-name='Group 53' transform='translate(-20 -23)'>
+          <g id='google_developers_logomark_color' transform='translate(20 28)'>
+            <path
+              id='Path_1'
+              data-name='Path 1'
+              d='M72.406,26.119l11.5-6.642a5.661,5.661,0,1,0-5.659-9.806L58.37,21.149Z'
+              transform='translate(-55.538 -8.912)'
+              fill='#ea4335'
+            />
+            <path
+              id='Path_2'
+              data-name='Path 2'
+              d='M45.467,187.5A5.662,5.662,0,0,0,48.3,176.933L28.423,165.455a5.661,5.661,0,1,0-5.66,9.806l19.879,11.478A5.641,5.641,0,0,0,45.467,187.5Z'
+              transform='translate(-19.931 -152.767)'
+              fill='#4285f4'
+            />
+            <path
+              id='Path_3'
+              data-name='Path 3'
+              d='M563.731,256.559a5.639,5.639,0,0,0,2.826-.759l19.876-11.478-13.857-5.072-11.683,6.745a5.662,5.662,0,0,0,2.839,10.564Z'
+              transform='translate(-517.483 -221.829)'
+              fill='#fbbc04'
+            />
+            <path
+              id='Path_4'
+              data-name='Path 4'
+              d='M583.573,31.714a5.661,5.661,0,0,0,2.836-10.566L566.53,9.672a5.661,5.661,0,0,0-5.661,9.805l19.88,11.478A5.639,5.639,0,0,0,583.573,31.714Z'
+              transform='translate(-517.46 -8.912)'
+              fill='#0f9d58'
+            />
+          </g>
+          <text
+            id='GDG_Nagpur'
+            data-name='GDG Nagpur'
+            transform='translate(105 58)'
+            fill='#ffffff'
+            font-size='36'
+            font-family='GoogleSans-Regular, Google Sans'
+          >
+            <tspan x='0' y='0'>
+              GDG Nagpur
+            </tspan>
+          </text>
+        </g>
+      </svg>

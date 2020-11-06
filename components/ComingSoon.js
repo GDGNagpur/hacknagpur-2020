@@ -13,6 +13,10 @@ const ComingSoon = () => {
         </span>
         .
       </h5>
+      <h4 className='coming-soon-text '>Coming Soon...</h4>
+      <a className='subscribe' href='http://eepurl.com/hdvNmn' target='_blank'>
+        Subscribe for updates
+      </a>
     </div>
   );
 };

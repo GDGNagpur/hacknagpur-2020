@@ -11,3 +11,18 @@
 .hackathon {
   font-weight: 600;
 }
+
+.coming-soon-text {
+  font-size: $H3;
+  font-weight: 600;
+}
+
+.subscribe {
+  background-color: $blue;
+  padding: 16px 32px;
+  font-size: $paragraph;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  border-left: 10px solid $green;
+}

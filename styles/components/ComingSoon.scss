@@ -1,11 +1,18 @@
 .coming-soon {
   margin-left: 10vw;
+
+  @media (max-width: 450px) {
+    margin-left: 0;
+  }
 }
 
 .tagline {
   font-size: $H5;
   font-weight: 400;
   margin: 0;
+  @media (max-width: 450px) {
+    font-size: $paragraph;
+  }
 }
 
 .hackathon {

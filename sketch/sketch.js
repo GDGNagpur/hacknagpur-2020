@@ -6,7 +6,7 @@ export default function sketch(p) {
     p.createCanvas(p.windowWidth + 200, p.windowHeight);
     p.background('#272121');
     p.stroke('#02fe89');
-    p.strokeWeight(0.3);
+    p.strokeWeight(0.2);
 
     for (let i = step; i < p.height; i += step) {
       let line = [];
@@ -31,7 +31,9 @@ export default function sketch(p) {
         let x = lines[i][j].x;
         let y = lines[i][j].y;
         let off =
-          p.noise(x * noiseScale + speed, y * noiseScale + speed) * step * 5;
+          p.noise(x * noiseScale + speed, y * noiseScale + 2 * speed) *
+          step *
+          7;
         p.vertex(x, y + off);
         speed += p.random(i + j) * 0.00000005;
       }

@@ -5,7 +5,6 @@ import Header from '../components/Header';
 export default function Home() {
   return (
     <div className='container'>
-      <Header />
       <div className='main'>
         <Head>
           <meta charSet='UTF-8' />
@@ -15,7 +14,6 @@ export default function Home() {
           />
           <title>HackNagpur - Coming Soon</title>
         </Head>
-        <ComingSoon />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import ComingSoon from '../components/ComingSoon';
-import Header from '../components/Header';
+import Hero from '../components/Hero';
+import SketchWrapper from '../components/Sketch';
 
 export default function Home() {
   return (
@@ -14,6 +14,8 @@ export default function Home() {
           />
           <title>HackNagpur - Coming Soon</title>
         </Head>
+        <SketchWrapper />
+        <Hero />
       </div>
     </div>
   );

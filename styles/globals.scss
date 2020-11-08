@@ -1,12 +1,16 @@
 @import './variables.scss';
 @import './components//Header.scss';
+@import './components/Hero.scss';
 @import './components/ComingSoon.scss';
+@import './components/Sketch.scss';
 
 html,
 body {
+  z-index: -9999;
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -38,7 +42,7 @@ a {
 
 .logo-big {
   font-size: $H1;
-  font-weight: 700;
+  font-weight: 500;
   margin: 8px 0;
 
   @media (max-width: 450px) {

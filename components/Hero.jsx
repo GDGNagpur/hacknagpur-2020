@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import DevfolioLogo from '../svgs/devfolio-logo';
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
         Central India's largest community hackathon.
       </div>
       <button className='devfolio-button'>
-        <Image src='/assets/devfolio-logo.svg' height={24} width={22} />
+        <DevfolioLogo />
         Apply with Devfolio
       </button>
     </div>

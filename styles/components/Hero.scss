@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .devfolio-button {
@@ -21,7 +22,7 @@
   align-items: center;
   width: 230px;
 
-  img {
+  svg {
     margin-right: 16px;
   }
 }

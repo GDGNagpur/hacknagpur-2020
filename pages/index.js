@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import About from '../components/About';
 import Hero from '../components/Hero';
 import SketchWrapper from '../components/Sketch';
 
@@ -14,8 +15,10 @@ export default function Home() {
           />
           <title>HackNagpur - Coming Soon</title>
         </Head>
-        <SketchWrapper />
-        <Hero />
+        <main>
+          <Hero />
+          <About />
+        </main>
       </div>
     </div>
   );

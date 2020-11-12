@@ -31,9 +31,7 @@ export default function sketch(p) {
         let x = lines[i][j].x;
         let y = lines[i][j].y;
         let off =
-          p.noise(x * noiseScale + speed, y * noiseScale + 2 * speed) *
-          step *
-          7;
+          p.noise(x * noiseScale + speed, y * noiseScale + speed) * step * 7;
         p.vertex(x, y + off);
         speed += p.random(i + j) * 0.00000005;
       }

@@ -11,6 +11,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  background-color: $black;
 }
 
 a {
@@ -25,9 +26,9 @@ a {
 
 .container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: $black;
-  padding: 0 10vw;
+  padding: 0 150px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -38,6 +39,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+main {
+  z-index: 1;
 }
 
 .logo-big {
@@ -52,4 +57,28 @@ a {
 
 .green {
   color: $green;
+}
+
+.section-heading {
+  font-size: $H3;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 3px;
+    background-color: $blue;
+    border-radius: 3px 0 0 3px;
+    bottom: 0;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    background-color: $green;
+    border-radius: 0 3px 3px 0;
+    left: 20%;
+    bottom: 0;
+  }
 }

@@ -1,6 +1,7 @@
 @import './variables.scss';
 @import './components//Header.scss';
 @import './components/Hero.scss';
+@import './components/Tracks.scss';
 @import './components/ComingSoon.scss';
 @import './components/Sketch.scss';
 
@@ -22,6 +23,7 @@ a {
 * {
   color: $white;
   box-sizing: border-box;
+  z-index: 5;
 }
 
 .container {
@@ -41,10 +43,6 @@ a {
   justify-content: center;
 }
 
-main {
-  z-index: 1;
-}
-
 .logo-big {
   font-size: $H1;
   font-weight: 500;
@@ -59,8 +57,14 @@ main {
   color: $green;
 }
 
+.section {
+  padding: 48px 0;
+}
+
 .section-heading {
-  font-size: $H3;
+  display: initial;
+  font-size: $H2;
+  margin-bottom: 48px;
   position: relative;
   &::before {
     content: '';
@@ -81,4 +85,34 @@ main {
     left: 20%;
     bottom: 0;
   }
+}
+
+h3 {
+  display: initial;
+  font-size: $H3;
+  font-weight: 700;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 3px;
+    background-color: $blue;
+    border-radius: 3px 0 0 3px;
+    bottom: 0;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    background-color: $green;
+    border-radius: 0 3px 3px 0;
+    left: 20%;
+    bottom: 0;
+  }
+}
+
+.section-wrapper {
+  margin: 72px 0;
 }

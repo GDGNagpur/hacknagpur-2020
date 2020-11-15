@@ -4,11 +4,13 @@ import About from '../components/About';
 import Hero from '../components/Hero';
 import Tracks from '../components/Tracks';
 import FAQs from '../components/FAQs';
+import Prizes from '../components/Prizes';
+import Sponsors from '../components/Sponsors';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
     <>
-      <SketchWrapper />
       <div className='container'>
         <div className='main'>
           <Head>
@@ -23,8 +25,11 @@ export default function Home() {
             <Hero />
             <About />
             <Tracks />
+            <Prizes />
+            <Sponsors />
             <FAQs />
           </main>
+          <Footer />
         </div>
       </div>
     </>

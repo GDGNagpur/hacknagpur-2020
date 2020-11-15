@@ -8,8 +8,8 @@ const FAQs = () => {
         FAQs<span className='green'>.</span>
       </h3>
       <div className='section-wrapper'>
-        {faqs.map(({ q, a }) => (
-          <Collapsible trigger={q}>
+        {faqs.map(({ q, a }, i) => (
+          <Collapsible trigger={q} transitionTime={200} key={i}>
             <p>{a}</p>
           </Collapsible>
         ))}

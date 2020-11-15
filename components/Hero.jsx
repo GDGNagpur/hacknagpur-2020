@@ -10,10 +10,14 @@ const Hero = () => {
       <div className='tagline'>
         Central India's largest community hackathon.
       </div>
-      <button className='devfolio-button'>
+      <div className='dates green'>26th December 2020 - 30th December 2020</div>
+      <a className='devfolio-button' href='https://hacknagpur.devfolio.co/'>
         <DevfolioLogo />
         Apply with Devfolio
-      </button>
+      </a>
+      <a href='http://sessionize.com/hacknagpur' className='call-for-speakers'>
+        Call for Speakers
+      </a>
     </div>
   );
 };

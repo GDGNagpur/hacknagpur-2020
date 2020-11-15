@@ -1,9 +1,11 @@
 @import './variables.scss';
+@import './components/FAQs.scss';
 @import './components//Header.scss';
 @import './components/Hero.scss';
 @import './components/Tracks.scss';
 @import './components/ComingSoon.scss';
 @import './components/Sketch.scss';
+@import './components/Footer.scss';
 
 html,
 body {
@@ -57,11 +59,22 @@ a {
   color: $green;
 }
 
+.link-green {
+  color: $green;
+  text-decoration: underline;
+}
+
 .section {
   padding: 48px 0;
+  text-align: center;
+}
+
+.section-wrapper {
+  text-align: left;
 }
 
 .section-heading {
+  text-align: center;
   display: initial;
   font-size: $H2;
   margin-bottom: 48px;
@@ -115,4 +128,29 @@ h3 {
 
 .section-wrapper {
   margin: 72px 0;
+}
+
+.social-links {
+  margin-top: 48px;
+  font-size: $H4;
+  a {
+    margin-right: 24px;
+  }
+}
+
+.call-for-speakers {
+  margin-top: 32px;
+  font-size: $paragraph;
+  background-color: #3770ff;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  background-color: $white;
+  color: #1ab394;
 }

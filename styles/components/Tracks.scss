@@ -18,6 +18,9 @@
         width: 200px;
         height: auto;
       }
+      @media (max-width: 450px) {
+        margin-bottom: 16px;
+      }
     }
     .track-content {
       .display-text-group {
@@ -28,6 +31,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align: center;
     }
   }
 }

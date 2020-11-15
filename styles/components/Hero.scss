@@ -8,7 +8,9 @@
   align-items: center;
   min-height: 100vh;
 }
-
+.buttons {
+  display: flex;
+}
 .dates {
   font-size: $H5;
 }

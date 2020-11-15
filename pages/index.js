@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Head from 'next/head';
 import SketchWrapper from '../components/Sketch';
 import About from '../components/About';
@@ -7,8 +8,17 @@ import FAQs from '../components/FAQs';
 import Prizes from '../components/Prizes';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
+import { initGA, logPageView } from '../components/Analytics';
 
 export default function Home() {
+  useEffect(() => {
+    if (!window.GA_INITIALIZED) {
+      initGA();
+      window.GA_INITIALIZED = true;
+    }
+    logPageView();
+  }, []);
+
   return (
     <>
       <div className='container'>

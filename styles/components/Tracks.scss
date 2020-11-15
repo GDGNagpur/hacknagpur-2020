@@ -1,0 +1,28 @@
+.read-more-button {
+  color: $blue;
+  cursor: pointer;
+}
+
+.tracks-content {
+  .track {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px 0 72px 0;
+    border-bottom: 1px solid $white;
+
+    .track-svg {
+      margin-right: 24px;
+      svg {
+        width: 200px;
+        height: auto;
+      }
+    }
+    .track-content {
+      .display-text-group {
+        margin-top: 24px;
+      }
+    }
+  }
+}

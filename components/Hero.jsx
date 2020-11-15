@@ -11,7 +11,7 @@ const Hero = () => {
         Central India's largest community hackathon.
       </div>
       <div className='dates green'>26th December 2020 - 30th December 2020</div>
-      <div className='buttons'>
+      <div className='main-buttons'>
         <a className='devfolio-button' href='https://hacknagpur.devfolio.co/'>
           <DevfolioLogo />
           Apply with Devfolio

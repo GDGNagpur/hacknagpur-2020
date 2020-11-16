@@ -1,0 +1,30 @@
+.tier {
+  padding-bottom: 48px;
+  margin: 48px 0;
+  border-bottom: 1px solid $white;
+
+  .title-partner-card {
+    margin: 24px 0;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: rgba($white, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg,
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .sponsor-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+.tier-heading {
+  font-size: $H4;
+}

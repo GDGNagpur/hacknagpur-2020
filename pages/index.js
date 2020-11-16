@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import SketchWrapper from '../components/Sketch';
+import Navbar from '../components/Navbar';
 import About from '../components/About';
 import Hero from '../components/Hero';
 import Tracks from '../components/Tracks';
@@ -32,6 +33,7 @@ export default function Home() {
             <title>HackNagpur - Coming Soon</title>
           </Head>
           <main>
+            <Navbar />
             <Hero />
             <About />
             <Tracks />

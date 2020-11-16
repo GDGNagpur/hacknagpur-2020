@@ -1,4 +1,5 @@
 import DevfolioLogo from '../svgs/devfolio-logo';
+import SessionalizeLogo from '../svgs/SessionalizeLogo';
 
 const Hero = () => {
   return (
@@ -20,6 +21,7 @@ const Hero = () => {
           href='http://sessionize.com/hacknagpur'
           className='call-for-speakers'
         >
+          <SessionalizeLogo />
           Call for Speakers
         </a>
       </div>

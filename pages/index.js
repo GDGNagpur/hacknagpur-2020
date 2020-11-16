@@ -30,7 +30,13 @@ export default function Home() {
               name='viewport'
               content='width=device-width, initial-scale=1.0'
             />
-            <title>HackNagpur - Coming Soon</title>
+            <meta
+              name='description'
+              content="Central India's Largest Community Hackathon driven by 20+ local tech communites to empower innovative minds together to ideate, innovate and inspire developers."
+            />
+            <title>
+              HackNagpur - Central India's largest community hackathon.
+            </title>
           </Head>
           <main>
             <Navbar />

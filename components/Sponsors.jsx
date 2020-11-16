@@ -1,9 +1,11 @@
+import Image from 'next/image';
 import GoogleDevelopersLogo from '../svgs/google-developers-logo';
 import DevfolioFullLogo from '../svgs/devfolio-full';
 import PortisLogo from '../svgs/portis-logo';
 import MaticLogo from '../svgs/matic-logo';
 import TezosLogo from '../svgs/tezos-logo';
 import AirmeetLogo from '../svgs/airmeet-logo';
+import LinodeLogo from '../svgs/linode-logo';
 
 const Sponsors = () => {
   return (
@@ -39,6 +41,14 @@ const Sponsors = () => {
             </div>
             <div className='title-partner-card'>
               <TezosLogo />
+            </div>
+          </div>
+        </div>
+        <div className='tier'>
+          <p className='tier-heading'>Seed Partner</p>
+          <div className='sponsor-card-container'>
+            <div className='title-partner-card'>
+              <LinodeLogo />
             </div>
           </div>
         </div>

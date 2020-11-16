@@ -1,42 +1,56 @@
-// import { useEffect, useState, useRef } from 'react';
-// import Navigation from 'react-sticky-nav';
+import { useState } from 'react';
+import Navigation from 'react-sticky-nav';
+import MenuButton from '../svgs/MenuButton';
 
-// const Navbar = () => {
-//   let navbarClasses = ['navbar'];
-//   const navbar = useRef(null);
-//   const [scrolled, setScrolled] = useState(false);
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-//   const handleScroll = () => {
-//     const offset = window.scrollY;
-//     //const bodyRect = document.body.getBoundingClientRect();
-//     const navRect = navbar.current.getBoundingClientRect();
-//     //console.log(navRect.y);
-//     if (navRect.y <= 20) {
-//       setScrolled(true);
-//     } else {
-//       setScrolled(false);
-//     }
-//   };
+  return (
+    <>
+      <nav className='navbar scrolled'>
+        <a className='nav-link' href='#about'>
+          About
+        </a>
+        <a className='nav-link' href='#tracks'>
+          Tracks
+        </a>
+        <a className='nav-link' href='#prizes'>
+          Prizes
+        </a>
+        <a className='nav-link' href='#sponsors'>
+          Sponsors
+        </a>
+        <a className='nav-link' href='#faqs'>
+          FAQs
+        </a>
+        <div id='menu-button' onClick={() => setMenuOpen(!menuOpen)}>
+          <MenuButton />
+        </div>
+      </nav>
+      <div
+        className='sidebar'
+        style={{
+          transform: menuOpen ? 'translateX(-100%)' : 'translateX(0)',
+        }}
+      >
+        <a href='#about' onClick={() => setMenuOpen(!menuOpen)}>
+          About
+        </a>
+        <a href='#tracks' onClick={() => setMenuOpen(!menuOpen)}>
+          Tracks
+        </a>
+        <a href='#prizes' onClick={() => setMenuOpen(!menuOpen)}>
+          Prizes
+        </a>
+        <a href='#sponsors' onClick={() => setMenuOpen(!menuOpen)}>
+          Sponsors
+        </a>
+        <a href='#faqs' onClick={() => setMenuOpen(!menuOpen)}>
+          FAQs
+        </a>
+      </div>
+    </>
+  );
+};
 
-//   useEffect(() => {
-//     window.addEventListener('scroll', handleScroll);
-//   });
-
-//   if (scrolled) {
-//     navbarClasses.push('scrolled');
-//   } else {
-//     navbarClasses = ['navbar'];
-//   }
-
-//   return (
-//     <nav className={navbarClasses.join(' ')} ref={navbar}>
-//       <a href='#about'>About</a>
-//       <a href='#tracks'>Tracks</a>
-//       <a href='#prizes'>Prizes</a>
-//       <a href='#sponsors'>Sponsors</a>
-//       <a href='#faqs'>FAQs</a>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
+export default Navbar;

@@ -42,7 +42,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  @media (max-width: 450px) {
+  @media (max-width: $breakpoint) {
     padding: 0 50px;
   }
 }
@@ -59,7 +59,7 @@ a {
   font-weight: 500;
   margin: 8px 0;
 
-  @media (max-width: 450px) {
+  @media (max-width: $breakpoint) {
     font-size: $H2;
   }
 }
@@ -81,7 +81,7 @@ a {
 .section-wrapper {
   text-align: left;
 
-  @media (max-width: 450px) {
+  @media (max-width: $breakpoint) {
     text-align: center;
   }
 }

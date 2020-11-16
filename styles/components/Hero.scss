@@ -16,7 +16,7 @@
 .main-buttons {
   display: flex;
   justify-content: space-around;
-  @media (max-width: 450px) {
+  @media (max-width: $breakpoint) {
     flex-direction: column;
   }
 }
@@ -62,7 +62,7 @@
   padding: 12px 20px;
   text-align: center;
 
-  @media (max-width: 450px) {
+  @media (max-width: $breakpoint) {
     margin-right: 0;
   }
 }

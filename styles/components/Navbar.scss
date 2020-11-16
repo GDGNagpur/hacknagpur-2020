@@ -9,7 +9,7 @@
   padding: 24px 150px;
   background-color: $black;
 
-  @media (max-width: 450px) {
+  @media (max-width: $breakpoint) {
     padding: 24px 50px;
     justify-content: flex-end;
     .nav-link {
@@ -19,7 +19,7 @@
 
   #menu-button {
     display: none;
-    @media (max-width: 450px) {
+    @media (max-width: $breakpoint) {
       display: initial;
     }
   }

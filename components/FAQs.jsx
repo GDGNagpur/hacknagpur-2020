@@ -2,6 +2,9 @@ import Collapsible from 'react-collapsible';
 import faqs from '../data/faqs';
 
 const FAQs = () => {
+  const ans = (answer) => {
+    return { __html: answer };
+  };
   return (
     <div id='faqs' className='section'>
       <h3 className='section-heading'>
@@ -10,7 +13,7 @@ const FAQs = () => {
       <div className='section-wrapper'>
         {faqs.map(({ q, a }, i) => (
           <Collapsible trigger={q} transitionTime={200} key={i}>
-            <p>{a}</p>
+            <p dangerouslySetInnerHTML={ans(a)}></p>
           </Collapsible>
         ))}
       </div>

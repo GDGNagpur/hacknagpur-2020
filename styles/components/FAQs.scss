@@ -16,6 +16,9 @@
   .Collapsible__contentOuter {
     p {
       padding: 0.5rem 2rem;
+      a {
+        color: $yellow;
+      }
     }
     background-color: #002988;
   }

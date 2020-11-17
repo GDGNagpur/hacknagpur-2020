@@ -16,6 +16,10 @@
       width: 100%;
       height: auto;
     }
+    transition: background-color 0.1s ease-out;
+    &:hover {
+      background-color: rgba($white, 0.2);
+    }
   }
 
   .sponsor-card-container {

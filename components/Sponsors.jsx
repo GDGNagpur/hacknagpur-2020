@@ -17,47 +17,75 @@ const Sponsors = () => {
         <div className='tier'>
           <p className='tier-heading'>Title Partner</p>
           <div className='sponsor-card-container'>
-            <div className='title-partner-card'>
+            <a
+              href='https://developers.google.com/'
+              target='_blank'
+              className='title-partner-card'
+            >
               <GoogleDevelopersLogo />
-            </div>
+            </a>
           </div>
         </div>
         <div className='tier'>
           <p className='tier-heading'>Sapling Partner</p>
           <div className='sponsor-card-container'>
-            <div className='title-partner-card'>
+            <a
+              href='https://devfolio.co/'
+              target='_blank'
+              className='title-partner-card'
+            >
               <DevfolioFullLogo />
-            </div>
+            </a>
           </div>
         </div>
         <div className='tier'>
           <p className='tier-heading'>Shoot Partner</p>
           <div className='sponsor-card-container'>
-            <div className='title-partner-card'>
+            <a
+              href='https://matic.network'
+              target='_blank'
+              className='title-partner-card'
+            >
               <MaticLogo />
-            </div>
-            <div className='title-partner-card'>
+            </a>
+            <a
+              href='https://portis.io'
+              target='_blank'
+              className='title-partner-card'
+            >
               <PortisLogo />
-            </div>
-            <div className='title-partner-card'>
+            </a>
+            <a
+              href='https://tezos.com'
+              target='_blank'
+              className='title-partner-card'
+            >
               <TezosLogo />
-            </div>
+            </a>
           </div>
         </div>
         <div className='tier'>
           <p className='tier-heading'>Seed Partner</p>
           <div className='sponsor-card-container'>
-            <div className='title-partner-card'>
+            <a
+              href='https://www.linode.com/'
+              target='_blank'
+              className='title-partner-card'
+            >
               <LinodeLogo />
-            </div>
+            </a>
           </div>
         </div>
         <div className='tier'>
           <p className='tier-heading'>Virtual Tech Partner</p>
           <div className='sponsor-card-container'>
-            <div className='title-partner-card'>
+            <a
+              href='https://airmeet.com'
+              target='_blank'
+              className='title-partner-card'
+            >
               <AirmeetLogo />
-            </div>
+            </a>
           </div>
         </div>
       </div>

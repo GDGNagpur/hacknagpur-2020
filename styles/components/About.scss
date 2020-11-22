@@ -1,0 +1,16 @@
+.about-content {
+  display: flex;
+
+  .svg-container {
+    @media (max-width: $breakpoint) {
+      svg {
+        width: 150px;
+        height: auto;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    flex-direction: column;
+  }
+}

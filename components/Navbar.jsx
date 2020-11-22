@@ -23,6 +23,9 @@ const Navbar = () => {
         <a className='nav-link' href='#faqs'>
           FAQs
         </a>
+        <a className='nav-link' href='#team'>
+          Team
+        </a>
         <div id='menu-button' onClick={() => setMenuOpen(!menuOpen)}>
           <MenuButton />
         </div>
@@ -47,6 +50,9 @@ const Navbar = () => {
         </a>
         <a href='#faqs' onClick={() => setMenuOpen(!menuOpen)}>
           FAQs
+        </a>
+        <a href='#team' onClick={() => setMenuOpen(!menuOpen)}>
+          Team
         </a>
       </div>
     </>

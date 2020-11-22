@@ -9,6 +9,7 @@ import FAQs from '../components/FAQs';
 import Prizes from '../components/Prizes';
 import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
+import Team from '../components/Team';
 import { initGA, logPageView } from '../components/Analytics';
 
 export default function Home() {
@@ -46,6 +47,7 @@ export default function Home() {
             <Prizes />
             <Sponsors />
             <FAQs />
+            <Team />
           </main>
           <Footer />
         </div>

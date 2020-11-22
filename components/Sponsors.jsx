@@ -87,11 +87,14 @@ const Sponsors = () => {
           <p className='tier-heading'>Media Partner</p>
           <div className='sponsor-card-container'>
             <a
-              href='https://airmeet.com'
+              href='https://thelivenagpur.com/'
               target='_blank'
               className='title-partner-card'
             >
-              <AirmeetLogo />
+              <img
+                height={64}
+                src='https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/the%20live%20nagpur.png?alt=media&token=e583ff09-c089-4086-9aa4-30cdd6408351'
+              />
             </a>
           </div>
         </div>

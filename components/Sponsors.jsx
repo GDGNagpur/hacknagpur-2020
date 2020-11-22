@@ -41,7 +41,10 @@ const Sponsors = () => {
               target='_blank'
               className='title-partner-card'
             >
-              <img src='/assets/cblogo.png' height={64} />
+              <img
+                height={64}
+                src='https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/Coding%20blocks%20w%20(1)%201.png?alt=media&token=14ae9fb9-7779-442b-81e6-7d50f606043c'
+              />
             </a>
           </div>
         </div>

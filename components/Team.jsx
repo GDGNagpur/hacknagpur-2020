@@ -9,15 +9,11 @@ const Team = () => {
         Team<span className='green'>.</span>
       </h2>
       <div className='section-wrapper team-content'>
-        {team.map(({ name, designation, linkedin, twitter }, i) => {
+        {team.map(({ name, designation, linkedin, twitter, link }, i) => {
           return (
             <div key={i} className='team-member-card'>
               <div className='team-member-picture-wrapper'>
-                <Image
-                  src={`/assets/team/${name.split(' ')[0].toLowerCase()}.jpg`}
-                  width={150}
-                  height={150}
-                />
+                <img src={link} width={150} height={150} />
               </div>
               <p className='team-member-name green'>{name}</p>
               <p className='team-member-designation'>{designation}</p>

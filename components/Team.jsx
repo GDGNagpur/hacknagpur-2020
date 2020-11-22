@@ -18,10 +18,10 @@ const Team = () => {
               <p className='team-member-name green'>{name}</p>
               <p className='team-member-designation'>{designation}</p>
               <div className='team-member-social-links'>
-                <a href={linkedin} href='_blank'>
+                <a href={linkedin} target='_blank'>
                   <IoLogoLinkedin />
                 </a>
-                <a href={twitter} href='_blank'>
+                <a href={twitter} target='_blank'>
                   <IoLogoTwitter />
                 </a>
               </div>

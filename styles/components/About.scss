@@ -1,8 +1,12 @@
 .about-content {
   display: flex;
+  font-size: $H5;
 
   .svg-container {
+    padding-right: 64px;
     @media (max-width: $breakpoint) {
+      padding-right: 0;
+
       svg {
         width: 150px;
         height: auto;

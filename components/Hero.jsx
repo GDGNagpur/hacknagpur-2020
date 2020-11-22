@@ -39,7 +39,7 @@ class Hero extends Component {
         <div className='main-buttons'>
           <button id='devfolio-apply-now'>
             <svg
-              class='logo'
+              className='logo'
               xmlns='http://www.w3.org/2000/svg'
               fill='#fff'
               viewBox='0 0 115.46 123.46'

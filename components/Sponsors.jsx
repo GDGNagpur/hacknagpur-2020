@@ -36,6 +36,13 @@ const Sponsors = () => {
             >
               <DevfolioFullLogo />
             </a>
+            <a
+              href='https://codingblocks.com/'
+              target='_blank'
+              className='title-partner-card'
+            >
+              <img src='/assets/cblogo.png' height={64} />
+            </a>
           </div>
         </div>
         <div className='tier'>
@@ -73,6 +80,18 @@ const Sponsors = () => {
               className='title-partner-card'
             >
               <LinodeLogo />
+            </a>
+          </div>
+        </div>
+        <div className='tier'>
+          <p className='tier-heading'>Media Partner</p>
+          <div className='sponsor-card-container'>
+            <a
+              href='https://airmeet.com'
+              target='_blank'
+              className='title-partner-card'
+            >
+              <AirmeetLogo />
             </a>
           </div>
         </div>

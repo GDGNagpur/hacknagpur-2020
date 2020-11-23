@@ -6,6 +6,7 @@ import MaticLogo from '../svgs/matic-logo';
 import TezosLogo from '../svgs/tezos-logo';
 import AirmeetLogo from '../svgs/airmeet-logo';
 import LinodeLogo from '../svgs/linode-logo';
+import Click2CloudLogo from '../svgs/click2cloud-logo';
 
 const Sponsors = () => {
   return (
@@ -71,6 +72,16 @@ const Sponsors = () => {
               className='title-partner-card'
             >
               <TezosLogo />
+            </a>
+            <a
+              href='https://www.click2cloud.com/'
+              target='_blank'
+              className='title-partner-card'
+            >
+              <img
+                height={64}
+                src='https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/Click2Cloud%20logo%2002%20Copy%202.png?alt=media&token=8fb2ef1c-6265-446b-afdb-0df62613e229'
+              />
             </a>
           </div>
         </div>

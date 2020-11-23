@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import DevfolioLogo from '../svgs/devfolio-logo';
+import SlackLogo from '../svgs/slack-logo';
 import SessionalizeLogo from '../svgs/SessionalizeLogo';
 
 class Hero extends Component {
@@ -26,6 +27,15 @@ class Hero extends Component {
   render() {
     return (
       <div className='hero'>
+        <a
+          className='slack-button'
+          href='https://join.slack.com/t/hacknagpur/shared_invite/zt-iy41lp2r-CRaVnQUqr9caFjZbAxLejg'
+          target='_blank'
+        >
+          <div className='svg-container'>
+            <SlackLogo />
+          </div>
+        </a>
         <div className='logo-big'>
           <span className='green'>hack</span>nagpur
           <span className='green'>.</span>

@@ -82,8 +82,8 @@ const team = [
   {
     name: 'Aastha Patel',
     designation: 'Content Designer',
-    linkedin: 'https://www.linkedin.com/in/saniya-imroze-144a72192',
-    twitter: 'https://twitter.com/ImrozeSaniya',
+    linkedin: 'http://linkedin.com/in/aastha-patel-307b1a19b',
+    twitter: 'https://twitter.com/Aasthapatel_20',
     link:
       'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/aastha.jpg?alt=media&token=8ec299a3-bd7e-41d5-b743-e244ec64c714',
   },

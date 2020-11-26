@@ -83,6 +83,16 @@ const Sponsors = () => {
                 src='https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/Click2Cloud%20logo%2002%20Copy%202.png?alt=media&token=8fb2ef1c-6265-446b-afdb-0df62613e229'
               />
             </a>
+            <a
+              href='https://www.echoar.xyz/'
+              target='_blank'
+              className='title-partner-card'
+            >
+              <img
+                height={64}
+                src='https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/echoAR%20-%20Logo%202020.png?alt=media&token=7ea71304-2341-4508-aaa5-8332814fe8ed'
+              />
+            </a>
           </div>
         </div>
         <div className='tier'>

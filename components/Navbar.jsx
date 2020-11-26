@@ -23,6 +23,9 @@ const Navbar = () => {
         <a className='nav-link' href='#faqs'>
           FAQs
         </a>
+        <a className='nav-link' href='#communities'>
+          Communities
+        </a>
         <a className='nav-link' href='#team'>
           Team
         </a>
@@ -50,6 +53,9 @@ const Navbar = () => {
         </a>
         <a href='#faqs' onClick={() => setMenuOpen(!menuOpen)}>
           FAQs
+        </a>
+        <a href='#communities' onClick={() => setMenuOpen(!menuOpen)}>
+          Communities
         </a>
         <a href='#team' onClick={() => setMenuOpen(!menuOpen)}>
           Team

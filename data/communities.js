@@ -77,7 +77,7 @@ const communities = [
     name: 'DevScript',
     redirect: 'https://devscript.tech/',
     link:
-      'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/communities%2Fdevscript.svg?alt=media&token=b0497a0c-875b-4c1d-a3a9-d28f09f03d9d',
+      'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/communities%2FDevScript-Red.png?alt=media&token=d07692ed-861c-4315-bdb7-178728fe3cd2',
   },
 ];
 

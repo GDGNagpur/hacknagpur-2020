@@ -38,7 +38,7 @@ const Communities = () => {
           {communities.map(({ link, redirect }) => {
             return (
               <a href={redirect} className='community-card'>
-                <img height={80} width='auto' src={link} />
+                <img src={link} />
               </a>
             );
           })}

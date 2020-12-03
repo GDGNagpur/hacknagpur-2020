@@ -8,6 +8,7 @@ import AirmeetLogo from '../svgs/airmeet-logo';
 import LinodeLogo from '../svgs/linode-logo';
 import Click2CloudLogo from '../svgs/click2cloud-logo';
 import GithubLogo from '../svgs/github-logo';
+import ElasticLogo from '../svgs/elastic-logo';
 
 const Sponsors = () => {
   return (
@@ -25,6 +26,18 @@ const Sponsors = () => {
               className='title-partner-card'
             >
               <GoogleDevelopersLogo />
+            </a>
+          </div>
+        </div>
+        <div className='tier'>
+          <p className='tier-heading'>Tree Partner</p>
+          <div className='sponsor-card-container'>
+            <a
+              href='https://elastic.co/'
+              target='_blank'
+              className='title-partner-card'
+            >
+              <ElasticLogo />
             </a>
           </div>
         </div>

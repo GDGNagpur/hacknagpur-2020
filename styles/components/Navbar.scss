@@ -10,7 +10,7 @@
   background-color: $black;
 
   @media (max-width: $breakpoint) {
-    padding: 24px 50px;
+    padding: 24px 25px;
     justify-content: flex-end;
     .nav-link {
       display: none;

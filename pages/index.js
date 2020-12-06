@@ -12,6 +12,7 @@ import Footer from '../components/Footer';
 import Team from '../components/Team';
 import Communities from '../components/Communities';
 import { initGA, logPageView } from '../components/Analytics';
+import Judges from '../components/Judges';
 
 export default function Home() {
   useEffect(() => {
@@ -47,6 +48,7 @@ export default function Home() {
             <Tracks />
             <Prizes />
             <Sponsors />
+            <Judges />
             <FAQs />
             <Communities />
             <Team />

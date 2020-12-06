@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Countdown from './Counter';
 import DevfolioLogo from '../svgs/devfolio-logo';
 import SlackLogo from '../svgs/slack-logo';
 import SessionalizeLogo from '../svgs/SessionalizeLogo';
@@ -68,6 +69,7 @@ class Hero extends Component {
             Call for Speakers
           </a>
         </div>
+        <Countdown />
       </div>
     );
   }

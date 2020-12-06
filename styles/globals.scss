@@ -11,6 +11,7 @@
 @import './components/About.scss';
 @import './components/Team.scss';
 @import './components/Community.scss';
+@import './components/Judges.scss';
 
 html,
 body {
@@ -46,7 +47,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   @media (max-width: $breakpoint) {
-    padding: 0 50px;
+    padding: 0 25px;
   }
 }
 

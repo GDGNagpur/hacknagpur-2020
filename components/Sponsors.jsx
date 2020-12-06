@@ -155,6 +155,18 @@ const Sponsors = () => {
             </a>
           </div>
         </div>
+        <div className='tier'>
+          <p className='tier-heading'>Internship Partner</p>
+          <div className='sponsor-card-container'>
+            <a
+              href='https://www.mergeintern.com'
+              target='_blank'
+              className='title-partner-card'
+            >
+              <img src='https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/Merge(3).png?alt=media&token=86837447-b3ab-4b87-873c-386f0334fa62' />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

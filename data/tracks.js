@@ -1,5 +1,10 @@
 const tracks = [
   {
+    title: `Open Innovation`,
+    description: `A track on the special demands of the participants, covering all the out of the box ideas that do not fit in any of the above mentioned tracks, for the wild ideas brewing in the sculpted minds. Get rabid with all the Technology ideas in the tertiary sectors!
+`,
+  },
+  {
     title: `Artificial Intelligence`,
     description: `Taking the giant leap of turning things smart enough to mimic the naturality of humans into bit driven machines, this track paves the way for smart techies to bring up solutions that seamlessly solve complex and bulky real-world problems!`,
   },

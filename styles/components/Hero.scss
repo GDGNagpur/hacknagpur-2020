@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     @media (max-width: $breakpoint) {
-      right: 50px;
+      right: 25px;
     }
     .svg-container {
       position: relative;
@@ -130,4 +130,56 @@
 
 #devfolio-apply-now:hover {
   background-color: #2954bf !important;
+}
+
+.counter {
+  h4 {
+    margin: 24px 0;
+    font-size: $H4;
+    font-weight: 600;
+  }
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $H3;
+
+    .time-chip {
+      margin: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: $H3;
+
+      .time-chip-number {
+        padding: 16px 18px;
+        border-radius: 8px;
+        color: $green;
+        background-color: rgba($white, 0.1);
+      }
+      .time-chip-label {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint) {
+    .countdown {
+      font-size: $paragraph;
+      .time-chip {
+        margin: 8px;
+
+        .time-chip-number {
+          padding: 16px 18px;
+          border-radius: 8px;
+          color: $green;
+          background-color: rgba($white, 0.1);
+        }
+        .time-chip-label {
+          font-size: 16px;
+        }
+      }
+    }
+  }
 }

@@ -20,6 +20,9 @@ const Navbar = () => {
         <a className='nav-link' href='#sponsors'>
           Sponsors
         </a>
+        <a className='nav-link' href='#judges'>
+          Judges
+        </a>
         <a className='nav-link' href='#faqs'>
           FAQs
         </a>
@@ -50,6 +53,9 @@ const Navbar = () => {
         </a>
         <a href='#sponsors' onClick={() => setMenuOpen(!menuOpen)}>
           Sponsors
+        </a>
+        <a href='#judges' onClick={() => setMenuOpen(!menuOpen)}>
+          Judges
         </a>
         <a href='#faqs' onClick={() => setMenuOpen(!menuOpen)}>
           FAQs

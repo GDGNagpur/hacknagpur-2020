@@ -64,7 +64,7 @@ const judges = [
     designation: 'Founder',
     company: 'Cosmoreal.io',
     linkedin: 'https://www.linkedin.com/in/creativehims',
-    track: 'AR/VR, Mobile Soutions',
+    track: 'AR/VR, Mobile Solutions',
     profile:
       'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/speakers%2Fhimanshu.jpg?alt=media&token=7cc18c53-8f80-44c1-a8e1-bcb00533f60a',
   },

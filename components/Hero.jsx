@@ -61,13 +61,6 @@ class Hero extends Component {
             </svg>
             Apply with Devfolio
           </button>
-          <a
-            href='http://sessionize.com/hacknagpur'
-            className='call-for-speakers'
-          >
-            <SessionalizeLogo />
-            Call for Speakers
-          </a>
         </div>
         <Countdown />
       </div>

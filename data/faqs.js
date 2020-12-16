@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: `Is there any official communication channel with the organizing team?`,
-    a: `Yes, We got you covered!  We have an active <a href="https://join.slack.com/t/hacknagpur/shared_invite/zt-iy41lp2r-CRaVnQUqr9caFjZbAxLejg" target="_blank">Slack Channel</a> for communication, along with some cool mentors to whom you can ask for help.`,
+    a: `Yes, We got you covered!  We have an active <a href="https://join.slack.com/t/hacknagpur/shared_invite/zt-k5u5y8ib-Nvd6IBtvnjhv~MJOxLEO~w" target="_blank">Slack Channel</a> for communication, along with some cool mentors to whom you can ask for help.`,
   },
   {
     q: `Is there any Code of Conduct?`,

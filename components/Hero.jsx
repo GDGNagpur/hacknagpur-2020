@@ -30,7 +30,7 @@ class Hero extends Component {
       <div className='hero'>
         <a
           className='slack-button'
-          href='https://join.slack.com/t/hacknagpur/shared_invite/zt-iy41lp2r-CRaVnQUqr9caFjZbAxLejg'
+          href='https://join.slack.com/t/hacknagpur/shared_invite/zt-k5u5y8ib-Nvd6IBtvnjhv~MJOxLEO~w'
           target='_blank'
         >
           <div className='svg-container'>

@@ -13,6 +13,7 @@ import Team from '../components/Team';
 import Communities from '../components/Communities';
 import { initGA, logPageView } from '../components/Analytics';
 import Judges from '../components/Judges';
+import Schedule from '../components/Schedule';
 
 export default function Home() {
   useEffect(() => {
@@ -44,6 +45,7 @@ export default function Home() {
           <main>
             <Navbar />
             <Hero />
+            <Schedule />
             <About />
             <Tracks />
             <Prizes />

@@ -1,6 +1,6 @@
 const Schedule = () => {
   return (
-    <div div className='section'>
+    <div id="schedule" className='section'>
       <h2 className='section-heading'>
         Schedule<span className='green'>.</span>
       </h2>

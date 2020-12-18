@@ -49,7 +49,7 @@ const Navbar = () => {
           About
         </a>
         <a href='#schedule' onClick={() => setMenuOpen(!menuOpen)}>
-          About
+          Schedule
         </a>
         <a href='#tracks' onClick={() => setMenuOpen(!menuOpen)}>
           Tracks

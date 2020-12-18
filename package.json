@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@reach/dialog": "^0.12.1",
     "next": "10.0.1",
     "p5": "^1.1.9",
     "react": "17.0.1",

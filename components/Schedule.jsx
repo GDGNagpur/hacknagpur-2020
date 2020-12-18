@@ -7,7 +7,7 @@ const Schedule = () => {
       <div className='section-wrapper'>
         <script src='//my.visme.co/visme-embed.js'></script>
         <div
-          class='visme_d'
+          className='visme_d'
           data-url='pv6x6my4-schedule'
           data-w='800'
           data-h='1034'

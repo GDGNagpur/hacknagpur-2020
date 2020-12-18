@@ -1,0 +1,59 @@
+.prizes-column {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .prizes-card {
+    cursor: pointer;
+    height: 160px;
+    width: 240px;
+    padding: 16px;
+    margin: 24px;
+    background-color: $blue;
+    border-radius: 12px;
+    svg {
+      height: 70px;
+    }
+    .champion {
+      margin: 0;
+      font-size: $H3;
+      font-weight: 700;
+    }
+  }
+
+  .other-prizes {
+    display: flex;
+    align-items: center;
+
+    div {
+      text-align: left;
+    }
+  }
+}
+
+.dialog {
+  position: relative;
+  .dialog-close {
+    cursor: pointer;
+    color: #000000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .prize-card-item {
+    margin: 24px;
+    width: 240px;
+    img {
+      width: 200px;
+    }
+  }
+}

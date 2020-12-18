@@ -9,6 +9,7 @@ import LinodeLogo from '../svgs/linode-logo';
 import Click2CloudLogo from '../svgs/click2cloud-logo';
 import GithubLogo from '../svgs/github-logo';
 import ElasticLogo from '../svgs/elastic-logo';
+import JetBrainsLogo from '../svgs/jetbrains-logo';
 
 const Sponsors = () => {
   return (
@@ -67,6 +68,17 @@ const Sponsors = () => {
               className='title-partner-card'
             >
               <GithubLogo />
+            </a>
+            <a
+              href='https://jetbrains.com/'
+              target='_blank'
+              className='title-partner-card'
+              style={{
+                maxHeight: '144px',
+                width: 'auto',
+              }}
+            >
+              <JetBrainsLogo />
             </a>
           </div>
         </div>

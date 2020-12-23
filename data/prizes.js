@@ -31,6 +31,19 @@ const prizePool = {
     'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2Flogo%20elastic%20horizontal%20color.png?alt=media&token=ab6dabcc-cd61-4e07-b1c2-72b1988ea026',
   devfolioTshirt:
     'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2Fugqwidu%201.png?alt=media&token=48eab122-3044-4d13-abd7-75a582ee8b4b',
+  internship:
+    'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2FInternship%201.png?alt=media&token=6e774414-0c95-492d-a223-2a7793665e4b',
+  community:
+    'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2FCommunity%201.png?alt=media&token=88677bf2-e327-4aab-962b-0ec9e0dbbb81',
+  featured:
+    'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2FFeatured%201.png?alt=media&token=25693ea6-4674-45eb-abe8-8ba33aaa010b',
+  amazon:
+    'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2FGiftCard%201.png?alt=media&token=36b57ff8-4331-417b-85b1-c7098c3657ea',
+  onemonth:
+    'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2FGroup%20215.png?alt=media&token=fa9431d0-04a7-4fcd-a366-fc2270754827',
+  5000: 'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2FGroup%20212.png?alt=media&token=67024a6a-e0ab-4bbc-ac9d-e42d85944fad',
+  10000: 'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2FGroup%20211.png?alt=media&token=8244add6-06d9-45aa-88a2-80c76d68f4b6',
+  15000: 'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/prizes%2FGroup%20213.png?alt=media&token=20950ba4-4e05-47c6-afc9-4af83d1c5855',
 };
 
 export const prizes = {
@@ -260,6 +273,54 @@ export const prizes = {
     {
       name: 'Certificate of Appreciation',
       image: prizePool['certificate'],
+    },
+  ],
+  matic: [
+    {
+      name: 'for the best hack built on Ethereum',
+      image: prizePool[10000],
+    },
+    {
+      name: 'for the best hack built on Ethereum + Matic',
+      image: prizePool[15000],
+    },
+    {
+      name: 'Eligibility to apply for internship/full-time roles',
+      image: prizePool['internship'],
+    },
+  ],
+  portis: [
+    {
+      name: '(in crypto) for best Dapp built on Portis',
+      image: prizePool[15000],
+    },
+  ],
+  tezos: [
+    {
+      name: 'for the best hack built on Tezos',
+      image: prizePool[10000],
+    },
+    {
+      name: 'for Runner-up Dapp Built on Tezos',
+      image: prizePool[5000],
+    },
+    {
+      name: 'Continuity Grant opportunity for exceptional builders',
+      image: prizePool['community'],
+    },
+  ],
+  echoar: [
+    {
+      name: '50$ Amazon gift card (per team)',
+      image: prizePool['amazon'],
+    },
+    {
+      name: 'Business Tier access (per team member)',
+      image: prizePool['onemonth'],
+    },
+    {
+      name: 'Selected projects will be featured on echoAR “Inspiration” Page',
+      image: prizePool['featured'],
     },
   ],
 };

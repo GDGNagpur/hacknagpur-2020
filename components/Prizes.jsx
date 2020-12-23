@@ -51,6 +51,36 @@ const Prizes = () => {
             <p>Best Performing Women Team</p>
           </div>
         </div>
+        <div className='prizes-column'>
+          <div
+            className='prizes-card other-prizes'
+            onClick={() => setIdentifier('matic')}
+          >
+            <Cup />
+            <p>Matic Category</p>
+          </div>
+          <div
+            className='prizes-card other-prizes'
+            onClick={() => setIdentifier('portis')}
+          >
+            <Cup />
+            <p>Portis Category</p>
+          </div>
+          <div
+            className='prizes-card other-prizes'
+            onClick={() => setIdentifier('tezos')}
+          >
+            <Cup />
+            <p>Tezos Category</p>
+          </div>
+          <div
+            className='prizes-card other-prizes'
+            onClick={() => setIdentifier('echoar')}
+          >
+            <Cup />
+            <p>echoAR Category</p>
+          </div>
+        </div>
         {identifier !== 'none' && (
           <PrizeModal
             identifier={identifier}

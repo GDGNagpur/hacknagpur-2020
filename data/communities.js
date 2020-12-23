@@ -79,6 +79,12 @@ const communities = [
     link:
       'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/communities%2FDevScript-Red.png?alt=media&token=d07692ed-861c-4315-bdb7-178728fe3cd2',
   },
+  {
+    name: 'Code Asylums',
+    redirect: 'https://www.codeasylums.com/',
+    link:
+      'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/communities%2FGroup%20655.png?alt=media&token=9d483614-930c-4081-83da-1f01d19f85f2',
+  },
 ];
 
 export default communities;

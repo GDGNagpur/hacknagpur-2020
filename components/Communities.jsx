@@ -35,9 +35,13 @@ const Communities = () => {
             justifyContent: 'center',
           }}
         >
-          {communities.map(({ link, redirect }) => {
+          {communities.map(({ name, link, redirect }) => {
             return (
-              <a href={redirect} className='community-card'>
+              <a
+                href={redirect}
+                className='community-card'
+                style={{ backgroundColor: 'rgba(#ffffff, 0.1)' }}
+              >
                 <img src={link} />
               </a>
             );

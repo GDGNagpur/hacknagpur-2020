@@ -1,5 +1,14 @@
 const judges = [
   {
+    name: 'Gulshan Saluja',
+    designation: 'Co-Founder',
+    company: 'Healthcoco',
+    linkedin: 'https://www.linkedin.com/in/gulshan-saluja-2bb00922/',
+    track: 'HealthTech',
+    profile:
+      'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/speakers%2Fgulshan.jpg?alt=media&token=0488085d-7f3c-472f-89a2-0bcaa90ab5c6',
+  },
+  {
     name: 'Alon Grinshpoon',
     designation: 'Founder',
     company: 'echoAR',
@@ -8,6 +17,14 @@ const judges = [
     track: 'AR/VR',
     profile:
       'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/speakers%2Falon.png?alt=media&token=10660e39-ee03-4b46-8750-c63c1b89b609',
+  },
+  {
+    name: 'Ravikumar Tiwari',
+    designation: 'Startup Mentor & Innovation',
+    linkedin: 'https://www.linkedin.com/in/ravitiwari90/',
+    track: 'Open Innovation',
+    profile:
+      'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/speakers%2Fravi.jpg?alt=media&token=a26a9d31-9f7c-46f7-90b5-7475f239fc5b',
   },
   {
     name: 'Abhishek Kumar Annamraju',

@@ -18,8 +18,8 @@ const team = [
   {
     name: 'Tushar Choudhari',
     designation: 'Lead Organizer',
-    linkedin: 'http://linkedin.com/in/thecoderpanda',
-    twitter: 'https://twitter.com/thecoderpanda',
+    linkedin: 'https://www.linkedin.com/in/tushar-choudhari/',
+    twitter: 'https://twitter.com/xyztush',
     link:
       'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/tushar.jpg?alt=media&token=716d8ed7-6bad-4aaa-8658-ba0d4403639e',
   },

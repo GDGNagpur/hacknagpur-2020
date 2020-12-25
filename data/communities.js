@@ -85,6 +85,12 @@ const communities = [
     link:
       'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/communities%2FGroup%20655.png?alt=media&token=9d483614-930c-4081-83da-1f01d19f85f2',
   },
+  {
+    name: 'Headstart Nagpur',
+    redirect: 'https://headstart.in/chapter/nagpur',
+    link:
+      'https://firebasestorage.googleapis.com/v0/b/hacknagpur.appspot.com/o/communities%2FMask%20Group%209.png?alt=media&token=5465959f-01a9-4cce-ac96-3c7127099597',
+  },
 ];
 
 export default communities;

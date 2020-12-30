@@ -39,7 +39,7 @@ const Counter = () => {
     if (completed) {
       return (
         <Countdown
-          date={new Date('December 30, 2020 17:30:00')}
+          date={new Date('December 31, 2020 01:30:00')}
           renderer={endsInRenderer}
         />
       );
